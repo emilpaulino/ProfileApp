@@ -19,12 +19,13 @@
             android:layout_width="190dp"
             android:layout_height="174dp"
             android:layout_marginStart="116dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="50dp"
             android:layout_marginEnd="116dp"
             android:src="@drawable/user_avatar"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.487"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/tb" />
 
         <TextView
             android:id="@+id/lblName"
@@ -110,6 +111,20 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/lblCareer" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:fitsSystemWindows="true"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="@string/tbTitle"
+            app:titleTextColor="@color/white" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

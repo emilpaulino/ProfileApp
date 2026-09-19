@@ -49,4 +49,5 @@
     <string name="hintSchId">Ej: 10154329</string>
     <string name="btnSave">Guardar</string>
     <string name="lblCareer">Carrera:</string>
+    <string name="tbTitle">Perfil de Estudiante</string>
 </resources>
