@@ -42,8 +42,6 @@ public class ProfileView extends AppCompatActivity {
 //            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
 //            return insets;
 //        });
-
-
     }
 
     private void validationAndSave() {
@@ -58,6 +56,8 @@ public class ProfileView extends AppCompatActivity {
         }
         if(validated.get()){
             Toast.makeText(this, "Perfil guardado correctamente", Toast.LENGTH_LONG).show();
+        } else {
+            Toast.makeText(this, "Revise los errores en los campos", Toast.LENGTH_LONG).show();
         }
     }
 }
