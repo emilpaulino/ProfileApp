@@ -53,4 +53,5 @@
     <string name="lblName2">Nombre:</string>
     <string name="lblSaludo">¡Hola!</string>
     <string name="lblDescription">Aquí se encuentra tu información:</string>
+    <string name="btnEdit">Editar</string>
 </resources>

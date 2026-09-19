@@ -35,5 +35,9 @@ public class ProfileSummary extends AppCompatActivity {
         binding.txtSchId2.setText(schId);
         binding.txtCareer2.setText(career);
 
+        binding.btnEdit.setOnClickListener(v -> {
+            finish();
+        });
+
     }
 }
