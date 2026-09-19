@@ -1,5 +1,6 @@
 package com.example.profileapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -56,6 +57,15 @@ public class ProfileView extends AppCompatActivity {
         }
         if(validated.get()){
             Toast.makeText(this, "Perfil guardado correctamente", Toast.LENGTH_LONG).show();
+
+            String name = binding.txtName.getText().toString();
+            System.out.println("NOMBRE ENVIADO: " + name);
+
+            Intent intent = new Intent(ProfileView.this, ProfileSummary.class);
+            intent.putExtra("name", binding.txtName.getText().toString());
+            intent.putExtra("schId", binding.txtSchId.getText().toString());
+            intent.putExtra("career", binding.spnCareer.getSelectedItem().toString());
+            startActivity(intent);
         } else {
             Toast.makeText(this, "Revise los errores en los campos", Toast.LENGTH_LONG).show();
         }

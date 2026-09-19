@@ -50,4 +50,7 @@
     <string name="btnSave">Guardar</string>
     <string name="lblCareer">Carrera:</string>
     <string name="tbTitle">Perfil de Estudiante</string>
+    <string name="lblName2">Nombre:</string>
+    <string name="lblSaludo">¡Hola!</string>
+    <string name="lblDescription">Aquí se encuentra tu información:</string>
 </resources>

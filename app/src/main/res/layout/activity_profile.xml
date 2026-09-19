@@ -75,7 +75,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/lblName" />
 
             <TextView
-                android:id="@+id/lblSchId"
+                android:id="@+id/lblSchId2"
                 android:layout_width="137dp"
                 android:layout_height="25dp"
                 android:layout_marginStart="45dp"
@@ -97,7 +97,7 @@
                 android:inputType="text"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/lblSchId" />
+                app:layout_constraintTop_toBottomOf="@+id/lblSchId2" />
 
             <TextView
                 android:id="@+id/lblCareer"
